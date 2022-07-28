@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="aa69b389-699d-4601-ac4d-0eb5c197773a" name="zhcloud">
+        <fileTransfer accessType="SFTP" host="server.zhcloud.top" port="22" sshConfigId="37eb0b58-e2c7-40d2-8634-044835f2b458" sshConfig="lowcode@server.zhcloud.top:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="caff32ed-06ca-47c2-9eae-d765c74dfb30" name="lowcode">
+        <fileTransfer rootFolder="/home/lowcode" accessType="SFTP" host="server.zhcloud.top" port="22" sshConfigId="56360428-d3be-40eb-8e87-7e9c53739f13" sshConfig="ubuntu@server.zhcloud.top:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
