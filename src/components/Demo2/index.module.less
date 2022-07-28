@@ -1,0 +1,23 @@
+:global { // 任意位置使用此关键字写入全局样式
+  * {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.demo2 {
+  background: yellow;
+
+  li {
+    list-style: none;
+  }
+  :global{
+    .inner{
+      width: 200px;
+      height: 200px;
+      border-radius: 100%;
+      background: chartreuse;
+    }
+  }
+
+}
