@@ -6,7 +6,6 @@ export const api = createApi({
     baseQuery: fetchBaseQuery({
         baseUrl: '/api',
     }),
-    tagTypes: ["DeviceInfo"],
     endpoints: builder => ({
         get: builder.query({ // GET请求查询api
             query: (qs1) => `/device_list/device_property_json?productIdx=1&qs1=${qs1}`,
