@@ -1,0 +1,33 @@
+html, body, #root {
+  height: 100%;
+}
+
+// 页面样式表写在此处，组件样式写在每个组件位置
+.layoutWhite { // 主题为白色的布局
+  height: 100%;
+
+  :global {
+    .header {
+      background: white;
+      border-bottom: 1px solid #f1f1f1;
+    }
+
+    .layout {
+      height: 100%;
+    }
+
+    .sider-left {
+      background: white;
+      border-right: 1px solid #f1f1f1;
+    }
+
+    .sider-right {
+      background: white;
+      border-left: 1px solid #f1f1f1;
+    }
+
+    .sider-left .sider-right {
+      height: 100%;
+    }
+  }
+}
