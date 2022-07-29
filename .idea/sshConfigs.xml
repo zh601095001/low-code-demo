@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="SshConfigs">
-    <configs>
-      <sshConfig authType="PASSWORD" host="server.zhcloud.top" id="37eb0b58-e2c7-40d2-8634-044835f2b458" port="22" nameFormat="DESCRIPTIVE" username="lowcode" useOpenSSHConfig="true" />
-      <sshConfig authType="PASSWORD" host="server.zhcloud.top" id="56360428-d3be-40eb-8e87-7e9c53739f13" port="22" nameFormat="DESCRIPTIVE" username="ubuntu" useOpenSSHConfig="true" />
-    </configs>
-  </component>
-</project>
