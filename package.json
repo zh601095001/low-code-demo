@@ -30,7 +30,7 @@
     "build": "craco build",
     "test": "craco test",
     "eject": "react-scripts eject",
-    "serve": "cd backend\nnpm start"
+    "serve": "cd backend\nuvicorn main:app --reload --port 8000 --host 0.0.0.0"
   },
   "eslintConfig": {
     "extends": [
