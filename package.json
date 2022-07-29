@@ -29,7 +29,8 @@
     "start": "nodemon -w craco.config.js  --exec \"craco start\"",
     "build": "craco build",
     "test": "craco test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "serve": "cd backend\nnpm start"
   },
   "eslintConfig": {
     "extends": [
