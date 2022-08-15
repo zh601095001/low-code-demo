@@ -1,0 +1,58 @@
+import React from "react";
+export default function RadioGroup({ hover, ...restProps }) {
+  return (
+    <svg
+      width="48"
+      className={hover}
+      {...restProps}
+      height="48"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        stroke="#D8D8D8"
+        stroke-width="2"
+        stroke-linecap="round"
+        d="M20 35h19M20 24h21M20 13h13"
+      />
+      <rect
+        x="7"
+        y="31"
+        width="8"
+        height="8"
+        rx="4"
+        fill="#fff"
+        stroke="#DEDEDE"
+        stroke-width="1.2"
+      />
+      <rect
+        x="7"
+        y="20"
+        width="8"
+        height="8"
+        rx="4"
+        fill="#3C92DC"
+        stroke="#3C92DC"
+      />
+      <rect
+        x="7"
+        y="9"
+        width="8"
+        height="8"
+        rx="4"
+        fill="#fff"
+        stroke="#DEDEDE"
+        stroke-width="1.2"
+      />
+      <rect
+        x="10"
+        y="23"
+        width="2"
+        height="2"
+        rx="1"
+        fill="#fff"
+        stroke="#fff"
+      />
+    </svg>
+  );
+}

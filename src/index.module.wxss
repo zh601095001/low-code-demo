@@ -1,0 +1,33 @@
+html,
+body,
+#root {
+  height: 100%;
+}
+.hover:hover {
+  transition: 0.5s;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+svg {
+  border-radius: 6px;
+}
+.layoutWhite {
+  height: 100%;
+}
+.layoutWhite :global .header {
+  background: white;
+  border-bottom: 1px solid #f1f1f1;
+}
+.layoutWhite :global .layout {
+  height: 100%;
+}
+.layoutWhite :global .sider-left {
+  background: white;
+  border-right: 1px solid #f1f1f1;
+}
+.layoutWhite :global .sider-right {
+  background: white;
+  border-left: 1px solid #f1f1f1;
+}
+.layoutWhite :global .sider-left .sider-right {
+  height: 100%;
+}
