@@ -11,4 +11,5 @@ npm run serve  # 启动后端
 # 编译项目
 ```
 npm build
+test
 ```
